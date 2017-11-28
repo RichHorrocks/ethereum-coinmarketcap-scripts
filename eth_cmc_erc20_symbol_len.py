@@ -3,7 +3,7 @@
 import urllib, json
 from collections import Counter
 
-url = "https://api.coinmarketcap.com/v1/ticker/?limit=0""
+url = "https://api.coinmarketcap.com/v1/ticker/?limit=0"
 response = urllib.urlopen(url)
 data = json.loads(response.read())
 
